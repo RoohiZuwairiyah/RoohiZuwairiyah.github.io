@@ -17,6 +17,12 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- Carousel-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -34,6 +40,11 @@
 	section[id="academics"]{
 	box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 	}
+	/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
 	</style>
 	
   </head>
@@ -186,96 +197,280 @@
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
+          
+		  <div id="demo" class="carousel slide col-lg-4 col-sm-6" data-ride="carousel">
+		  <!-- Indicators -->
+			<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+			
+			</ul>
+            <a class="portfolio-box" href= <!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/portfolio/fullsize/1.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/1.1.jpeg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/1.2.jpeg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/1.3.jpeg">
+				</div>
+			</div>
+			<div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Beauty
+                    Avians
                   </div>
                   <div class="project-name">
                     @Karanji Lake
                   </div>
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+  
+  
+  
+          <div id="demo" class="carousel slide col-lg-4 col-sm-6" data-ride="carousel">
+		  <!-- Indicators -->
+			<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+			
+			</ul>
+            <a class="portfolio-box" href= <!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/portfolio/fullsize/2.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/2.1.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/2.2.jpeg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/2.3.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/2.4.jpeg">
+				</div>
+			</div>
+			<div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Evening
+                    Evenings
                   </div>
                   <div class="project-name">
                     @Kukkarahalli Lake
                   </div>
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+			
+			
+			<div id="demo" class="carousel slide col-lg-4 col-sm-6" data-ride="carousel">
+		  <!-- Indicators -->
+			<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+			
+			</ul>
+            <a class="portfolio-box" href= <!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/portfolio/fullsize/3.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/3.1.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/3.2.jpeg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/3.3.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/3.4.jpeg">
+				</div>
+			</div>
+			<div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Love
                   </div>
-                  <div class="project-name">
-                    @Rahamaniya Mohalla
-                  </div>
+                  <!-- <div class="project-name">
+                    @Kukkarahalli Lake
+                  </div> -->
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+          
+		  
+		  <div id="demo" class="carousel slide col-lg-4 col-sm-6" data-ride="carousel">
+		  <!-- Indicators -->
+			<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+			
+			</ul>
+            <a class="portfolio-box" href= <!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/portfolio/fullsize/4.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/4.1.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/4.2.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/4.3.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/4.4.jpg">
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/4.5.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/4.6.jpeg">
+				</div>
+			</div>
+			<div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Relic
                   </div>
                   <div class="project-name">
-                    @Kotebetta
+                    History in slides
                   </div>
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+			</div>
+		  
+          
+		  <div id="demo" class="carousel slide col-lg-4 col-sm-6" data-ride="carousel">
+		  <!-- Indicators -->
+			<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+			
+			</ul>
+            <a class="portfolio-box" href= <!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/portfolio/fullsize/5.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/5.1.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/5.2.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/5.3.jpg">
+				</div>
+			</div>
+			<div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Travel
                   </div>
-                  <div class="project-name">
-                    @Madikeri
-                  </div>
+                  <!-- <div class="project-name">
+                    @Kukkarahalli Lake
+                  </div> -->
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+          
+		  
+		  <div id="demo" class="carousel slide col-lg-4 col-sm-6" data-ride="carousel">
+		  <!-- Indicators -->
+			<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+            <a class="portfolio-box" href= <!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/portfolio/fullsize/6.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/6.1.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/6.2.jpg">
+				</div>
+				<div class="carousel-item">
+				<img src="img/portfolio/fullsize/6.3.jpg">
+				</div>
+			</div>
+			<div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Road to Happiness
+                    Road to happiness
                   </div>
-                  <div class="project-name">
-                    @Nagarahole National Park
-                  </div>
+                  <!-- <div class="project-name">
+                    @Kukkarahalli Lake
+                  </div> -->
                 </div>
               </div>
-            </a>
-          </div>
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+          
+          
         </div>
       </div>
     </section>
