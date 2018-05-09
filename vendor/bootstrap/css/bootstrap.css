@@ -1224,6 +1224,7 @@ pre code {
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
+  
   .col-lg-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
@@ -6182,6 +6183,15 @@ button.bg-ternary:focus {
   background-color: #FEBDD2 !important;
 }
 
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
 .bg-success {
   background-color: #28a745 !important;
 }
@@ -9028,7 +9038,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: #000000 !important;
 }
 
 .text-white-50 {
@@ -9096,6 +9106,9 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important;
   }
   .container {
+    min-width: 992px !important;
+  }
+   .container1 {
     min-width: 992px !important;
   }
   .navbar {
